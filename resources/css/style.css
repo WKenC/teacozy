@@ -5,6 +5,7 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  justify-content: center;
 }
 
 a{
@@ -16,6 +17,7 @@ main{
   flex-direction: column;
   margin: 0 auto 78px auto;
   width: 1200px;
+  justify-content: center;
 }
 
 /* Header Section */
@@ -64,6 +66,7 @@ nav{
   height: 700px;
   width: 1200px;
   margin-top: 59px;
+  margin-bottom: 79px;
   align-content: center;
   justify-content: center;
   background-image: url("../images/img-mission-background.jpg");
@@ -79,4 +82,23 @@ nav{
 
 .wordplay h4{
   margin-bottom: 0;
+}
+
+/* Tea of the Month Section */
+.tea.content{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: 100px;
+  justify-content: center;
+}
+
+.tea.content .wordplay{
+  margin-bottom: 25px;
+}
+
+.teapic{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
 }
