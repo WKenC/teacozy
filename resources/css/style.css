@@ -34,13 +34,13 @@ header{
 
 nav{
   display: flex;
-  flex: 0 1 400px;
+  /*flex: 0 1 400px;*/
   height: 50px;
   margin-right: 20px;
   padding-top: 10px;
-  justify-content: flex-start;
-  overflow: hidden;
-  border: 1px solid red;
+  justify-content: flex-end;
+  /*overflow: hidden;
+  border: 1px solid red;*/
 }
 
 .links{
@@ -77,11 +77,13 @@ nav{
 }
 
 .wordplay h2{
-  margin-top: 0;
+  margin-top: 7px;
+  margin-bottom: 15px;
 }
 
 .wordplay h4{
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 7px;
 }
 
 /* Tea of the Month Section */
@@ -97,8 +99,59 @@ nav{
   margin-bottom: 25px;
 }
 
+.teabox{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.teaname{
+  margin: 0 auto;
+}
+
 .teapic{
   height: 200px;
   width: 300px;
+  margin-top: 15px;
   margin-bottom: 10px;
+}
+
+/* Locations Section */
+.location.content{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  margin-top: 80px;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+}
+
+.where h2{
+  margin: auto;
+}
+
+.locations{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.locbox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+  align-content: center;
+  justify-content: center;
+}
+
+.locbox h3{
+  margin: auto;
+}
+
+.locbox h4{
+  margin: auto;
 }
