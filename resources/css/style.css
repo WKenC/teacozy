@@ -34,13 +34,11 @@ header{
 
 nav{
   display: flex;
-  /*flex: 0 1 400px;*/
+  flex: 0 1 400px;
   height: 50px;
   margin-right: 20px;
   padding-top: 10px;
   justify-content: flex-end;
-  /*overflow: hidden;
-  border: 1px solid red;*/
 }
 
 .links{
@@ -154,4 +152,21 @@ nav{
 
 .locbox h4{
   margin: auto;
+}
+
+/* Contact Section */
+.contactbox{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+/* Footer Section */
+.copyright{
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 20px;
+  text-align: left;
 }
